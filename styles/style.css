@@ -1,1 +1,132 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 50px 96px 50px;  
+}
+
+.cover {
+  min-height: 757px;
+  background-image: url('../images/cover.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative; 
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+} 
+
+.cover__title {
+  font: 700 100px/114.9% Raleway, sans-serif;
+  color: #fff;
+  letter-spacing: 30%;
+  text-transform: uppercase;
+  width: 1000px;
+  height: 385px;
+  display: flex;
+  flex-direction: column;
+}
+
+.aligned-text__left {
+  position: absolute;
+  left: 50px;
+  top: 165px;
+}
+
+.aligned-text__center {
+  align-self: center;
+  position: absolute;
+  left: 380.5px;
+  top: 300px;
+}
+
+.aligned-text__right {
+  align-self: flex-end;
+  position: absolute;
+  left: 663px;
+  top: 435px;
+}
+
+.cover__description-text {
+  position: absolute; 
+  top: 668px;
+  left: 50px;
+  font: 400 22px/28px Raleway, sans-serif;
+  text-transform: uppercase;
+  word-spacing: 18.42px;
+  color: #fff;  
+}
+
+.bet__button {
+  position: absolute; 
+  padding: 12px 32px 11px 31px;
+  top: 656px;
+  left: 794px; 
+  width: 256px;
+  height: 51px;
+  appearance: none;
+  background-color: transparent;
+  color: #fff;
+  font: 500 22px Raleway, sans-serif;
+  text-transform: uppercase;
+  border: #fff 1px solid;
+
+} 
+
+.lots {
+
+}
+
+.about {
+
+}
+
+.footer {
+
+}
+
+.header__logo-image {
+  width: 148px;
+  height: 105px; 
+}
+
+.header__menu {
+  
+}
+
+
+.header-menu-list {
+  display: flex;
+  flex-direction: row;
+  font: 400 18px/28px Raleway, sans-serif;
+  gap: 32px;
+  
+}
+
+.header__link_active {
+  list-style-type: none;
+}
+
+.header__link {
+  list-style: circle;
+  text-decoration: underline;
+}
+
+.header__address {
+  justify-self: end;
+  max-width: 240px;
+  font: 400 18px/28px Raleway, sans-serif;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+
