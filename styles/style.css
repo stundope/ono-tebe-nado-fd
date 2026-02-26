@@ -191,11 +191,9 @@
 }
 
 .lots__look-more-link {
-  font: 500 18px/135% Raleway, sans-serif;
+  font: 500 22px/100% Raleway, sans-serif;
   color: #000;
-  text-underline-offset: 5px;
   margin-left: 40px;
-  font: 400 20px/100% Raleway, sans-serif;
 }
 
 .about {
