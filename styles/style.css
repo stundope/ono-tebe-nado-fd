@@ -125,7 +125,6 @@
 
 .lots {
     margin: 182px 24px 125px 24px;
-
 }
 
 .lots__heading {
@@ -158,9 +157,6 @@
     flex-direction: column;
     justify-content: space-between;
     position: relative;
-}
-
-.card {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
