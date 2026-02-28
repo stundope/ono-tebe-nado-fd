@@ -50,7 +50,7 @@
 }
 
 .cover {
-    height: 757px;
+    min-height: 757px;
     background-image: url('../images/cover.jpg');
     background-color: rgb(214, 199, 245);
     background-size: cover;
@@ -95,11 +95,10 @@
 }
 
 .cover__description {
-    min-height: 207px;
-    padding: 0px 50px 50px 50px;
+    padding: 106px 50px 50px 50px;
     display: flex;
     justify-content: space-between;
-    align-items: end;   
+    align-items: end;
 }
 
 .cover__description-text { 
